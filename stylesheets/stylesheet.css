@@ -208,6 +208,12 @@ h2 {
   background: #fffaf2;
 }
 
+.legacy-note a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .post-body {
   margin-top: 32px;
   color: #29313b;
