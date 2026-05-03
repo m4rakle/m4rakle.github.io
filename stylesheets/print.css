@@ -14,49 +14,47 @@ a {
   text-decoration: underline;
 }
 
+.social-links,
 .site-header,
-.signal-canvas,
-.hero-shade,
-.hero-actions,
 .site-footer {
   display: none;
 }
 
-.hero,
-.section,
-.content-main {
+.home-shell,
+.page-shell {
+  width: auto;
   min-height: 0;
-  padding: 0 0 24pt;
-  border: 0;
-  background: transparent;
+  padding: 0;
 }
 
-.hero-content,
-.section-inner {
-  width: auto;
-  padding: 0;
+.writing-preview,
+.blog-layout {
+  display: block;
+  padding-top: 18pt;
+  border-top: 1px solid #cccccc;
 }
 
 h1,
 h2,
-h3,
 p {
   margin: 0 0 10pt;
 }
 
 h1 {
-  font-size: 28pt;
+  font-size: 24pt;
 }
 
 h2,
 .page-title {
-  font-size: 18pt;
+  font-size: 17pt;
 }
 
-.card,
-.post-card,
-.empty-state {
-  padding: 0;
-  border: 0;
-  box-shadow: none;
+.post-card {
+  display: block;
+  padding: 8pt 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+.post-body {
+  font-size: 12pt;
 }
