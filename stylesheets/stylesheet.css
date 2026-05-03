@@ -59,8 +59,6 @@ h2 {
   max-width: 720px;
 }
 
-.section-label,
-.section-kicker,
 .post-meta {
   color: var(--accent);
   font-size: 13px;
@@ -114,8 +112,7 @@ h2 {
   fill: currentColor;
 }
 
-.writing-preview,
-.blog-layout {
+.writing-preview {
   display: grid;
   grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
   gap: 36px;
@@ -193,11 +190,6 @@ h2 {
   padding: 82px 0 96px;
 }
 
-.archive-label {
-  color: var(--muted);
-  font-size: 13px;
-}
-
 .post-article {
   max-width: 760px;
 }
@@ -269,8 +261,7 @@ h2 {
     font-size: 19px;
   }
 
-  .writing-preview,
-  .blog-layout {
+  .writing-preview {
     grid-template-columns: 1fr;
     gap: 22px;
   }
