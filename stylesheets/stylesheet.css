@@ -193,21 +193,6 @@ h2 {
   padding: 82px 0 96px;
 }
 
-.page-copy {
-  max-width: 620px;
-  margin-top: 14px;
-  color: var(--muted);
-  font-size: 17px;
-}
-
-.topic-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 22px;
-}
-
-.topic-cloud span,
 .archive-label {
   color: var(--muted);
   font-size: 13px;
